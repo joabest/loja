@@ -44,15 +44,15 @@
   }
 
   var mainImages = [
-    svgData("Azul Escuro","#1c77d0","phone","front"),
-    svgData("Vista traseira","#273a4a","phone","back"),
-    svgData("Azul Claro","#69b6f5","phone","front"),
-    svgData("Lilás","#a58bdc","phone","front")
+    "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=900&q=85",
+    "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=900&q=85",
+    "https://images.unsplash.com/photo-1556656793-08538906a9f8?auto=format&fit=crop&w=900&q=85",
+    "https://images.unsplash.com/photo-1580910051074-3eb694886505?auto=format&fit=crop&w=900&q=85"
   ];
 
   var product = {
     id:"SF-X57-128-AZ",
-    title:"Smartphone ShopOne X57 128GB 5G 8GB RAM Azul Escuro 6,7” Câm. Tripla + Selfie 12MP",
+    title:"Smartphone X57 128GB 5G 8GB RAM Azul Escuro 6,7”",
     price:1799.90,
     oldPrice:1999.00,
     rating:4.9,
@@ -62,12 +62,26 @@
   };
 
   var related = [
-    {id:"SF-S25",title:"Smartphone ShopOne S25 128GB 5G 8GB RAM Azul Marinho 6,7”",price:2999.00,rating:4.9,img:svgData("S25","#163f75","phone")},
-    {id:"SF-X57P",title:"Smartphone ShopOne X57 Pro 256GB 5G 8GB RAM Azul Escuro",price:2299.00,rating:4.9,img:svgData("X57 Pro","#215f96","phone")},
-    {id:"SF-A37",title:"Smartphone ShopOne A37 128GB 5G 6GB RAM Preto 6,7”",price:1699.00,rating:4.8,img:svgData("A37","#373b40","phone")},
-    {id:"SF-TV55",title:"Smart TV Vision 55” 4K UHD HDR Wi-Fi",price:2539.90,rating:4.9,img:svgData("VISION 55","#2d55a4","tv")},
-    {id:"SF-BOOK",title:"Notebook Workbook Air 14” 16GB SSD 512GB",price:3299.90,rating:4.7,img:svgData("WORKBOOK","#1686c5","laptop")},
-    {id:"SF-HEAD",title:"Headphone Pulse Max Bluetooth com cancelamento de ruído",price:399.90,rating:4.8,img:svgData("PULSE MAX","#50616b","headphone")}
+    {id:"P01",title:"Smartphone 5G 256GB Tela AMOLED",price:2499.90,rating:4.9,img:"https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=700&q=82"},
+    {id:"P02",title:"Notebook Ultrafino 14” 16GB SSD 512GB",price:3299.90,rating:4.8,img:"https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=700&q=82"},
+    {id:"P03",title:"Notebook Pro 15” 16GB SSD 1TB",price:4599.90,rating:4.9,img:"https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?auto=format&fit=crop&w=700&q=82"},
+    {id:"P04",title:"Headphone Bluetooth com Cancelamento de Ruído",price:499.90,rating:4.8,img:"https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=700&q=82"},
+    {id:"P05",title:"Smartwatch Esportivo GPS e Monitor Cardíaco",price:799.90,rating:4.7,img:"https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&w=700&q=82"},
+    {id:"P06",title:"Relógio Inteligente Premium em Aço",price:1199.90,rating:4.8,img:"https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=700&q=82"},
+    {id:"P07",title:"Câmera Mirrorless 24MP Wi-Fi",price:3899.90,rating:4.9,img:"https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=700&q=82"},
+    {id:"P08",title:"Câmera Compacta 4K para Viagem",price:2299.90,rating:4.7,img:"https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=700&q=82"},
+    {id:"P09",title:"Tênis Casual Masculino Vermelho",price:349.90,rating:4.8,img:"https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=700&q=82"},
+    {id:"P10",title:"Óculos de Sol Premium Unissex",price:289.90,rating:4.6,img:"https://images.unsplash.com/photo-1572635196237-14b3f281503f?auto=format&fit=crop&w=700&q=82"},
+    {id:"P11",title:"Controle Wireless para Games",price:399.90,rating:4.8,img:"https://images.unsplash.com/photo-1606144042614-b2417e99c4e3?auto=format&fit=crop&w=700&q=82"},
+    {id:"P12",title:"Console de Games Edição Digital",price:3499.90,rating:4.9,img:"https://images.unsplash.com/photo-1606813907291-d86efa9b94db?auto=format&fit=crop&w=700&q=82"},
+    {id:"P13",title:"Caixa de Som Bluetooth Portátil",price:299.90,rating:4.7,img:"https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?auto=format&fit=crop&w=700&q=82"},
+    {id:"P14",title:"Teclado Mecânico RGB Compacto",price:449.90,rating:4.8,img:"https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=700&q=82"},
+    {id:"P15",title:"Mouse Gamer Sem Fio RGB",price:279.90,rating:4.7,img:"https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?auto=format&fit=crop&w=700&q=82"},
+    {id:"P16",title:"Monitor 27” IPS Full HD 144Hz",price:1399.90,rating:4.8,img:"https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&w=700&q=82"},
+    {id:"P17",title:"Tablet 10,9” 128GB Wi-Fi",price:2199.90,rating:4.8,img:"https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?auto=format&fit=crop&w=700&q=82"},
+    {id:"P18",title:"Fone TWS Bluetooth com Estojo",price:249.90,rating:4.6,img:"https://images.unsplash.com/photo-1590658268037-6bf12165a8df?auto=format&fit=crop&w=700&q=82"},
+    {id:"P19",title:"Mochila Executiva para Notebook",price:229.90,rating:4.7,img:"https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=700&q=82"},
+    {id:"P20",title:"Cadeira Gamer Ergonômica Reclinável",price:1299.90,rating:4.8,img:"https://images.unsplash.com/photo-1598550476439-6847785fcea6?auto=format&fit=crop&w=700&q=82"}
   ];
 
   var baseReviews = [
